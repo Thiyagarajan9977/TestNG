@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.cts.test.prog.Facebook_Login_Data">
+        <methods>
+          <include name="afterclass"/>
+          <include name="test" invocation-numbers="0 1 2"/>
+          <include name="beforemethod"/>
+          <include name="beforeclass"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- org.cts.test.prog.Facebook_Login_Data -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
